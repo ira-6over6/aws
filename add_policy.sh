@@ -4,7 +4,7 @@
 if [ $# -ne 1 ]; then
   echo -e "\nWrong usage! Script must have 1 argument. (you provided $#)"
   echo -e "Usage:\n   ./add_policies.sh policy_name"
-  echo -e "Where:\n   policy_name - the name of the new TEST policy to be added to AWS"
+  echo -e "Where:\n   policy_name - the name of the new TEST policy to be added to AWS" #Please remove TEST
   exit 1
 else
   policy_name=$1
